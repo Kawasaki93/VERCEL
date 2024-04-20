@@ -151,11 +151,36 @@ body {
 .desconectadosfila2 {
   visibility: hidden;
 }
-
+.desconectadosfila3 {
+  visibility: hidden;
+}
+.desconectadosfila4 {
+  visibility: hidden;
+}
+.desconectadosfila5 {
+  visibility: hidden;
+}
+.desconectadosfila6 {
+  visibility: hidden;
+}
+.desconectadosfila7 {
+  visibility: hidden;
+}
 .desconectadosfila8 {
   visibility: hidden;
 }
-
+.Zonalibre {
+  visibility: hidden;
+}
+.Zonalibre2 {
+  visibility: hidden;
+}
+.clon10A{
+  visibility: hidden;
+}
+.clon0 {
+  visibility: hidden;
+}
 /* line 132, ../scss/sunapp.scss */
 .primerafila {
   width: 75px;
@@ -242,7 +267,7 @@ input, textarea {
   transform: translateY(4px);
 }
 
-
+/*POSICION DEL NUMERO 8  */
 .sunbed:nth-of-type(10):before {
   content: 'Oficina......8 ';
   position: absolute;
@@ -250,91 +275,195 @@ input, textarea {
   font-size: 45px;
   color: black;
   margin-right: 20px;
-  
-  
+    
 }
-/* line 219, ../scss/sunapp.scss */
-.sunbed:nth-of-type(17):before {
+
+/*POSICION DEL NUMERO 7 DELANTE DE 79 */
+.sunbed:nth-of-type(15):before {
   content: '7';
   position: absolute;
-  right: 130%;
+  right: 75%;
   font-size: 45px;
   color: red;
   margin-right: 20px;
-  
-  
+    
 }
+
+/*POSICION DEL NUMERO 7 DELANTE DE MAGENTA */
+.sunbed:nth-of-type(17):before {
+  content: '7';
+  position: absolute;
+  right: 72%;
+  font-size: 45px;
+  color: red;
+  margin-right: 20px;
+    
+}
+
+/*POSICION DEL NUMERO 6 DELANTE DE 69C */
 .sunbed:nth-of-type(31):before {
   content: '6';
   position: absolute;
-  right: 130%;
+  right: 105%;
   font-size: 45px;
   color: red;
   margin-right: 200px;
-  
-  
+    
 }
 
+/*POSICION DEL NUMERO 6 DELANTE DE 69A--- */
+.sunbed:nth-of-type(33):before {
+  content: '6';
+  position: absolute;
+  right: 102%;
+  font-size: 45px;
+  color: red;
+  margin-right: 200px;
+    
+}
+
+/*POSICION DEL NUMERO 5 DELANTE DE 59C */
 .sunbed:nth-of-type(45):before {
   content: '5';
   position: absolute;
-  right: 130%;
+  right: 105%;
   font-size: 45px;
   color: red;
   margin-right: 200px;
-  
-  
+    
 }
+
+/*POSICION DEL NUMERO 6 DELANTE DE 59A--- */
+.sunbed:nth-of-type(47):before {
+  content: '5';
+  position: absolute;
+  right: 102%;
+  font-size: 45px;
+  color: red;
+  margin-right: 200px;
+    
+}
+
+/*POSICION DEL NUMERO 4 DELANTE DE 49C */
 .sunbed:nth-of-type(59):before {
   content: '4';
   position: absolute;
-  right: 130%;
+  right: 105%;
   font-size: 45px;
   color: red;
   margin-right: 200px;
   
   
 }
+
+/*POSICION DEL NUMERO 4 DELANTE DE 49A--- */
+.sunbed:nth-of-type(61):before {
+  content: '4';
+  position: absolute;
+  right: 102%;
+  font-size: 45px;
+  color: red;
+  margin-right: 200px;
+  
+  
+}
+
+/*POSICION DEL NUMERO 3 DELANTE DE 39C */
 .sunbed:nth-of-type(73):before {
   content: '3';
   position: absolute;
-  right: 130%;
+  right: 105%;
   font-size: 45px;
   color: red;
   margin-right: 200px;
   
   
 }
+
+/*POSICION DEL NUMERO 3 DELANTE DE 39A--- */
+.sunbed:nth-of-type(75):before {
+  content: '3';
+  position: absolute;
+  right: 102%;
+  font-size: 45px;
+  color: red;
+  margin-right: 200px;
+  
+  
+}
+
+/*POSICION DEL NUMERO 4 DELANTE DE 29C */
 .sunbed:nth-of-type(87):before {
   content: '2';
   position: absolute;
-  right: 130%;
+  right: 105%;
   font-size: 45px;
   color: red;
   margin-right: 200px;
   
 
 }
+
+/*POSICION DEL NUMERO 4 DELANTE DE 29A--- */
+.sunbed:nth-of-type(89):before {
+  content: '2';
+  position: absolute;
+  right: 101%;
+  font-size: 45px;
+  color: red;
+  margin-right: 200px;
+  
+
+}
+
+/*POSICION DEL NUMERO 1 DELANTE DE 19C */
 .sunbed:nth-of-type(101):before {
   content: '1';
   position: absolute;
-  right: 130%;
+  right: 105%;
   font-size: 45px;
   color: red;
   margin-right: 200px;
   
   
 }
+
+/*POSICION DEL NUMERO 1 DELANTE DE 19A--- */
+.sunbed:nth-of-type(103):before {
+  content: '1';
+  position: absolute;
+  right: 100%;
+  font-size: 45px;
+  color: red;
+  margin-right: 200px;
+  
+  
+}
+
+/*POSICION DEL NUMERO 0 DELANTE DE 9D */
 .sunbed:nth-of-type(115):before {
   content: '0';
   position: absolute;
-  right: 130%;
+  right: 105%;
   font-size: 45px;
   color: red;
   margin-right: 200px;
   
   
 }
+
+/*POSICION DEL NUMERO 0 DELANTE DE 9A */
+.sunbed:nth-of-type(117):before {
+  content: '0';
+  position: absolute;
+  right: 101%;
+  font-size: 45px;
+  color: red;
+  margin-right: 200px;
+  
+  
+}
+
 .sunbed:nth-of-type(26):after {
   content: '7';
   position:absolute;
