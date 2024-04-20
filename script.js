@@ -1,5 +1,5 @@
 let variable1;
-for (var x = 1; x < 238; x++) {
+for (var x = 1; x < 154; x++) {
   let cloned_element = $(".sunbed").first().clone();
   cloned_element.attr("id", "clon_" + x);
  
@@ -231,23 +231,32 @@ for (var x = 1; x < 238; x++) {
   $(".beach_wrapper").append(cloned_element);
 }
 
-
+//CLONES------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //CLONES COLOR NARANJA
 $("#clon_126,#clon_127,#clon_128,#clon_129,#clon_130,#clon_131,#clon_132,#clon_133,#clon_134,#clon_135,#clon_136,#clon_137,#clon_138,#clon_139,#clon_140,#clon_141,#clon_142,#clon_143,#clon_144,#clon_145,#clon_146,#clon_147,#clon_148,#clon_149,#clon_150,#clon_151,#clon_152,#clon_153,#clon_154,#clon_155,#clon_156,#clon_157,#clon_158,#clon_159,#clon_160,#clon_161,#clon_162,#clon_163,#clon_164,#clon_165,#clon_166,#clon_167,#clon_168,#clon_169,#clon_170,#clon_171,#clon_172,#clon_173,#clon_174,#clon_175,#clon_176,#clon_177,#clon_178,#clon_179,#clon_180,#clon_181,#clon_182,#clon_183,#clon_184,#clon_185,#clon_186,#clon_187,#clon_188,#clon_189,#clon_190,#clon_191,#clon_199").addClass('especiales');
 //CLONES DESCONECTADOS GENERALES
-$("#clon_1,#clon_2,#clon_3,#clon_4,#clon_5,#clon_6,#clon_7,#clon_8,#clon_11,#clon_13,#clon_14,#clon_15,#clon_27,#clon_41,#clon_55,#clon_69,#clon_83,#clon_97").addClass('desconectadosgeneral');
-//CLONES DESCONECTADOS PRIMERA FILA
-$("#clon_98,#clon_99,#clon_100,#clon_101,#clon_102,#clon_103,#clon_104,#clon_105,#clon_106,#clon_106,#clon_107,#clon_108,#clon_109,#clon_110,#clon_111").addClass("desconectadosFila1");
-//CLONES DESCONECTADOS SEGUNDA FILA
-$("#clon_72,#clon_73,#clon_74,#clon_75,#clon_76,#clon_77,#clon_78,#clon_79,#clon_80,#clon_81,#clon_82,#clon_83,#clon_84").addClass("desconectadosfila22");
-//CLONES OCTAVA FILA
+$("#clon_1,#clon_2,#clon_3,#clon_4,#clon_5,#clon_6,#clon_7,#clon_8,#clon_11,#clon_13,#clon_27,#clon_41,#clon_55,#clon_69,#clon_83,#clon_97").addClass('desconectadosgeneral');
+//CLON 10A y CLON 0
+$("#clon_111").addClass("clon10A")
+$("#clon_125").addClass("clon0")
+//CLONES DESCONECTADOS FILA 0
+$("#clon_112,#clon_113,#clon_114,#clon_115,#clon_116,#clon_117,#clon_118,#clon_119,#clon_120,#clon_121,#clon_122,#clon_123,#clon_124").addClass("desconectadosFila0");
+//CLONES DESCONECTADOS FILA 1
+$("#clon_98,#clon_99,#clon_100,#clon_101,#clon_102,#clon_103,#clon_104,#clon_105,#clon_106,#clon_106,#clon_107,#clon_108,#clon_109,#clon_110").addClass("desconectadosFila1");
+//CLONES DESCONECTADOS FILA 2
+$("#clon_84,#clon_85,#clon_86,#clon_87,#clon_88,#clon_89,#clon_90,#clon_91,#clon_92,#clon_93,#clon_94,#clon_95,#clon_96").addClass("desconectadosFila2");
+//CLONES DESCONECTADOS FILA 3
+$("#clon_70,#clon_71,#clon_72,#clon_73,#clon_74,#clon_75,#clon_76,#clon_77,#clon_78,#clon_79,#clon_80,#clon_81,#clon_82").addClass("desconectadosFila3");
+//CLONES DESCONECTADOS FILA 4
+$("#clon_56,#clon_57,#clon_58,#clon_59,#clon_60,#clon_61,#clon_62,#clon_63,#clon_64,#clon_65,#clon_66,#clon_67,#clon_68").addClass("desconectadosFila4");
+//CLONES DESCONECTADOS FILA 8
 $("#clon_9,#clon_10,#clon_11,#clon_12").addClass("desconectadosfila8");
-//CLONES DE FILA 0
-$("#clon_112,#clon_113,#clon_114,#clon_115,#clon_116,#clon_117,#clon_118,#clon_119,#clon_120,#clon_121,#clon_122,#clon_123,#clon_124,#clon_125").addClass("desconectadosFila0")
-//FILA ZONA LIBRE EXTRA
-$("#clon_28,#clon_29,#clon_42,#clon_43,#clon_56,#clon_57,#clon_70,#clon_71,#clon_84,#clon_85,#clon_98,#clon_99,#clon_112,#clon_113").addClass("Zonalibre")
+
+//FILA ZONA LIBRE EXTRA 1 Y 2
+$("#clon_14,#clon_15,#clon_28,#clon_29,#clon_42,#clon_43,#clon_56,#clon_57,#clon_70,#clon_71").addClass("Zonalibre")
+$("#clon_84,#clon_85,#clon_98,#clon_99,#clon_112,#clon_113").addClass("Zonalibre2")
 //CLONES MAGNETA CARPA
-$("#sunbed,#clon_16,#clon_17,#clon_18,#clon_126,#clon_127,#clon_128").addClass('intocables');
+$("#sunbed,#clon_16,#clon_17,#clon_18").addClass('intocables');
 //CLONES CON FORMA DE SOMBRILLA RECTANGULO REDONDO
 $("#clon_83,#clon_84,#clon_85,#clon_89,#clon_90,#clon_91,#clon_92,#clon_93,#clon_97,#clon_98,#clon_99,#clon_100,#clon_101,#clon_102,#clon_103,#clon_104,#clon_105,#clon_106,#clon_107,#clon_108,#clon_109,#clon_110,#clon_111,#clon_112,#clon_113,#clon_114,#clon_115,#clon_116,#clon_117,#clon_118,#clon_119,#clon_120,#clon_121,#clon_122,#clon_123,#clon_124,#clon_125,#clon_186,#clon_187,#clon_188,#clon_189,#clon_190,#clon_191").addClass('primerafila');
 //DE LA 1ª FILA Del 84 al 95.
@@ -259,7 +268,7 @@ $("#clon_83,#clon_84,#clon_85,#clon_89,#clon_90,#clon_91,#clon_92,#clon_93,#clon
 //DE LA 7ª FILA DEL 12 AL 22
 //DE LA 8ª FILA DEL 1 AL 10
 
-//Clicking function
+//Clicking function-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function handle_shopping_cart_amount(amount) {
     shopping_cart = shopping_cart + amount;
     localStorage.setItem('shopping_cart', shopping_cart);
@@ -296,7 +305,10 @@ function clearClick(number) {
     localStorage.clear();
     window.location.reload();
 }
-//BOTONES PARA OCULTAR FILAS-----------------------------------------------
+
+//BOTONES PARA OCULTAR FILAS------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//VISIBILIDAD DE LA FILA 8--------------------------------
 function toggleDesconectadosFila8() {
     var $desconectadosFila8 = $(".desconectadosfila8");
     var currentVisibility = $desconectadosFila8.css("visibility");
@@ -310,7 +322,7 @@ function toggleDesconectadosFila8() {
     }
 }
 
-// Al cargar la página, restaurar el estado de visibilidad desde el localStorage si está disponible
+// Al cargar la página, restaurar el estado de visibilidad de FILA 8-------
 $(document).ready(function() {
     var storedVisibility = localStorage.getItem("desconectadosFila8Visibility");
     if (storedVisibility === "visible") {
@@ -320,6 +332,82 @@ $(document).ready(function() {
     }
 });
 
+//VISIBILIDAD DE LA FILA 4--------------------------------------
+function toggledesconectadosFila4() {
+    var $desconectadosFila4 = $(".desconectadosFila4");
+    var currentVisibility = $desconectadosFila4.css("visibility");
+
+    if (currentVisibility === "hidden") {
+        $desconectadosFila4.css("visibility", "visible");
+        localStorage.setItem("desconectadosFila4Visibility", "visible");
+    } else {
+        $desconectadosFila4.css("visibility", "hidden");
+        localStorage.setItem("desconectadosFila4Visibility", "hidden");
+    }
+}
+
+// Al cargar la página, restaurar el estado de visibilidad de FILA 4-----
+$(document).ready(function() {
+    var storedVisibility = localStorage.getItem("desconectadosFila4Visibility");
+    if (storedVisibility === "visible") {
+        $(".desconectadosFila4").css("visibility", "visible");
+    } else if (storedVisibility === "hidden") {
+        $(".desconectadosFila4").css("visibility", "hidden");
+    }
+});
+
+//VISIBILIDAD DE LA FILA 3--------------------------------------
+function toggledesconectadosFila3() {
+    var $desconectadosFila3 = $(".desconectadosFila3");
+    var currentVisibility = $desconectadosFila3.css("visibility");
+
+    if (currentVisibility === "hidden") {
+        $desconectadosFila3.css("visibility", "visible");
+        localStorage.setItem("desconectadosFila3Visibility", "visible");
+    } else {
+        $desconectadosFila3.css("visibility", "hidden");
+        localStorage.setItem("desconectadosFila3Visibility", "hidden");
+    }
+}
+
+// Al cargar la página, restaurar el estado de visibilidad de FILA 3-----
+$(document).ready(function() {
+    var storedVisibility = localStorage.getItem("desconectadosFila3Visibility");
+    if (storedVisibility === "visible") {
+        $(".desconectadosFila3").css("visibility", "visible");
+    } else if (storedVisibility === "hidden") {
+        $(".desconectadosFila3").css("visibility", "hidden");
+    }
+});
+
+//VISIBILIDAD DE LA FILA 2--------------------------------------
+function toggledesconectadosFila2() {
+    var $desconectadosFila2 = $(".desconectadosFila2");
+    var currentVisibility = $desconectadosFila2.css("visibility");
+
+    if (currentVisibility === "hidden") {
+        $desconectadosFila2.css("visibility", "visible");
+        localStorage.setItem("desconectadosFila2Visibility", "visible");
+    } else {
+        $desconectadosFila2.css("visibility", "hidden");
+        localStorage.setItem("desconectadosFila2Visibility", "hidden");
+    }
+}
+
+// Al cargar la página, restaurar el estado de visibilidad de FILA 2-----
+$(document).ready(function() {
+    var storedVisibility = localStorage.getItem("desconectadosFila2Visibility");
+    if (storedVisibility === "visible") {
+        $(".desconectadosFila2").css("visibility", "visible");
+    } else if (storedVisibility === "hidden") {
+        $(".desconectadosFila2").css("visibility", "hidden");
+    }
+});
+
+
+
+
+//VISIBILIDAD DE LA FILA 1-----------------------------------
 function toggledesconectadosFila1() {
     var $desconectadosFila1 = $(".desconectadosFila1");
     var currentVisibility = $desconectadosFila1.css("visibility");
@@ -333,7 +421,7 @@ function toggledesconectadosFila1() {
     }
 }
 
-// Al cargar la página, restaurar el estado de visibilidad desde el localStorage si está disponible
+// Al cargar la página, restaurar el estado de visibilidad de FILA 1-----
 $(document).ready(function() {
     var storedVisibility = localStorage.getItem("desconectadosFila1Visibility");
     if (storedVisibility === "visible") {
@@ -343,7 +431,7 @@ $(document).ready(function() {
     }
 });
 
-  
+//VISIBILIDAD DE LA FILA 0------------------------------------  -
 function toggleDesconectadosFila0() {
     var $desconectadosFila0 = $(".desconectadosFila0");
     var currentVisibility = $desconectadosFila0.css("visibility");
@@ -357,7 +445,7 @@ function toggleDesconectadosFila0() {
     }
 }
 
-// Al cargar la página, restaurar el estado de visibilidad desde el localStorage si está disponible
+// Al cargar la página, restaurar el estado de visibilidad de FILA 0------
 $(document).ready(function() {
     var storedVisibility = localStorage.getItem("desconectadosFila0Visibility");
     if (storedVisibility === "visible") {
@@ -367,6 +455,7 @@ $(document).ready(function() {
     }
 });
   
+//VISIBILIDAD DE LA ZONA LIBRE 1--------------------------------------  
 function toggleZonalibre() {
     var $Zonalibre = $(".Zonalibre");
     var currentVisibility = $Zonalibre.css("visibility");
@@ -380,7 +469,7 @@ function toggleZonalibre() {
     }
 }
 
-// Al cargar la página, restaurar el estado de visibilidad desde el localStorage si está disponible
+// Al cargar la página, restaurar el estado de visibilidad de ZONA LIBRE 1----
 $(document).ready(function() {
     var storedVisibility = localStorage.getItem("ZonalibreVisibility");
     if (storedVisibility === "visible") {
@@ -389,7 +478,82 @@ $(document).ready(function() {
         $(".Zonalibre").css("visibility", "hidden");
     }
 });
-  
+
+//VISIBILIDAD DE LA ZONA LIBRE 2--------------------------------------  
+function toggleZonalibre2() {
+    var $Zonalibre2 = $(".Zonalibre2");
+    var currentVisibility = $Zonalibre2.css("visibility");
+
+    if (currentVisibility === "hidden") {
+        $Zonalibre2.css("visibility", "visible");
+        localStorage.setItem("Zonalibre2Visibility", "visible");
+    } else {
+        $Zonalibre2.css("visibility", "hidden");
+        localStorage.setItem("Zonalibre2Visibility", "hidden");
+    }
+}
+
+// Al cargar la página, restaurar el estado de visibilidad de ZONA LIBRE 2----
+$(document).ready(function() {
+    var storedVisibility = localStorage.getItem("Zonalibre2Visibility");
+    if (storedVisibility === "visible") {
+        $(".Zonalibre2").css("visibility", "visible");
+    } else if (storedVisibility === "hidden") {
+        $(".Zonalibre2").css("visibility", "hidden");
+    }
+});
+ 
+
+//VISIBILIDAD DEL CLON 10A--------------------------------------  
+function toggleclon10A() {
+    var $clon10A = $(".clon10A");
+    var currentVisibility = $clon10A.css("visibility");
+
+    if (currentVisibility === "hidden") {
+        $clon10A.css("visibility", "visible");
+        localStorage.setItem("clon10AVisibility", "visible");
+    } else {
+        $clon10A.css("visibility", "hidden");
+        localStorage.setItem("clon10AVisibility", "hidden");
+    }
+}
+
+// Al cargar la página, restaurar el estado de visibilidad del CLON 10A----
+$(document).ready(function() {
+    var storedVisibility = localStorage.getItem("clon10AVisibility");
+    if (storedVisibility === "visible") {
+        $(".clon10A").css("visibility", "visible");
+    } else if (storedVisibility === "hidden") {
+        $(".clon10A").css("visibility", "hidden");
+    }
+});
+ 
+//VISIBILIDAD DEL CLON 0--------------------------------------  
+function toggleclon0() {
+    var $clon0 = $(".clon0");
+    var currentVisibility = $clon0.css("visibility");
+
+    if (currentVisibility === "hidden") {
+        $clon0.css("visibility", "visible");
+        localStorage.setItem("clon0Visibility", "visible");
+    } else {
+        $clon0.css("visibility", "hidden");
+        localStorage.setItem("clon0Visibility", "hidden");
+    }
+}
+
+// Al cargar la página, restaurar el estado de visibilidad del CLON 0----
+$(document).ready(function() {
+    var storedVisibility = localStorage.getItem("clon0Visibility");
+    if (storedVisibility === "visible") {
+        $(".clon0").css("visibility", "visible");
+    } else if (storedVisibility === "hidden") {
+        $(".clon0").css("visibility", "hidden");
+    }
+});
+ 
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 var SunbedController = function() {
     return {
         init: function() {
