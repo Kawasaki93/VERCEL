@@ -3,28 +3,28 @@ for (var x = 1; x < 154; x++) {
   let cloned_element = $(".sunbed").first().clone();
   cloned_element.attr("id", "clon_" + x);
  
-  if (x === 10) {
-    cloned_element.find(".sunbed_name").html(85); // Asigna 85 al clon número 10
+ if (x === 10) {
+    cloned_element.find(".sunbed_name").html(82); // Asigna 85 al clon número 10
 } else if (x === 9) {
-    cloned_element.find(".sunbed_name").html(84); // Asigna 84 al clon número 9
+    cloned_element.find(".sunbed_name").html(83); // Asigna 84 al clon número 9
 } else if (x === 8) {
-    cloned_element.find(".sunbed_name").html(83); // Asigna 83 al clon número 8
+    cloned_element.find(".sunbed_name").html(82); // Asigna 83 al clon número 8
 } else if (x === 11) {
-    cloned_element.find(".sunbed_name").html(82); // Asigna 82 al clon número 11
+    cloned_element.find(".sunbed_name").html(81); // Asigna 82 al clon número 11
 } else if (x === 12) {
-    cloned_element.find(".sunbed_name").html(81); // Asigna 81 al clon número 12
+    cloned_element.find(".sunbed_name").html(80); // Asigna 81 al clon número 12
 } else if (x === 19) {
-    cloned_element.find(".sunbed_name").html(80); // Asigna 80 al clon número 13
+    cloned_element.find(".sunbed_name").html(77); // Asigna 80 al clon número 13
 } else if (x === 14) {
     cloned_element.find(".sunbed_name").html(79); // Asigna 79 al clon número 14
 } else if (x === 20) {
-    cloned_element.find(".sunbed_name").html(77); // Asigna 78 al clon número 20
+    cloned_element.find(".sunbed_name").html(76); // Asigna 78 al clon número 20
 } else if (x === 16 || x === 17 || x === 18) {
     cloned_element.find(".sunbed_name").html("X"); // Cambia el contenido de los clones 17, 18 y 19 a "X"
 } else if (x === 21) {
-    cloned_element.find(".sunbed_name").html(76); // Asigna 77 al clon número 21
+    cloned_element.find(".sunbed_name").html(75); // Asigna 77 al clon número 21
 } else if (x === 22) {
-    cloned_element.find(".sunbed_name").html(75); // Asigna 76 al clon número 22
+    cloned_element.find(".sunbed_name").html(74); // Asigna 76 al clon número 22
 } else if (x === 23) {
     cloned_element.find(".sunbed_name").html(73); // Asigna 75 al clon número 23
 } else if (x === 24) {
