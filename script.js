@@ -237,7 +237,7 @@ $("#clon_126,#clon_127,#clon_128,#clon_129,#clon_130,#clon_131,#clon_132,#clon_1
 //CLONES DESCONECTADOS GENERALES
 $("#clon_1,#clon_2,#clon_3,#clon_4,#clon_5,#clon_6,#clon_7,#clon_8,#clon_11,#clon_13,#clon_27,#clon_41,#clon_55,#clon_69,#clon_83,#clon_97").addClass('desconectadosgeneral');
 //CLON 10A y CLON 0
-$("#clon_111").addClass("clon10A")
+$("#clon_99").addClass("clon10A")
 $("#clon_125").addClass("clon0")
 //CLONES DESCONECTADOS FILA 0
 $("#clon_112,#clon_113,#clon_114,#clon_115,#clon_116,#clon_117,#clon_118,#clon_119,#clon_120,#clon_121,#clon_122,#clon_123,#clon_124").addClass("desconectadosFila0");
